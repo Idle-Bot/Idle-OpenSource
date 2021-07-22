@@ -24,24 +24,7 @@ module.exports.run = async (client, message) => {
     message.channel.send(replyEmbed)
   }
 
-  const words = [
-    "Fuck",
-    "Sucks",
-    "Bitch",
-    "Nigger",
-    "Nigga",
-    "Cock",
-    "Ass",
-    "Asshole"
-  ]
-
-  
-
-
-
-
-
-  const args = message.content
+ const args = message.content
     .slice(prefix.length)
     .trim()
     .split(/ +/g);
@@ -76,19 +59,11 @@ module.exports.run = async (client, message) => {
     }, command.cooldown)
   }
 
-  //NOW LETS TEST
+  
 
   //-----------------------------------------------------------------------------------------------------------------
 
   if (command) command.run(client, message, args);
 
-
-
-
-
-
-
 }
 
-
-//-------------------------------------------- F U N C T I O N ------------------------------------------
