@@ -38,7 +38,6 @@ module.exports.run = async (client, message) => {
 
   // Get the command
   let command = client.commands.get(cmd) || client.commands.find(a => a.aliases && a.aliases.includes(cmd))
-  // If none is found, try to find it by alias
   if (!command) command = client.commands.get(client.aliases.get(cmd));
 
 
