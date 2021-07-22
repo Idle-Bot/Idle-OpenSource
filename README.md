@@ -11,14 +11,17 @@
 # How to connect to mongoose 🔗 ( https://discord.js.org/ ) 
 
 > const mongoose = require('mongoose')
-    ```
+
+    ```js
       mongoose.connect(mongoString, {
       useUnifiedTopology: true,
       useNewUrlParser: true,
       useFindAndModify: false
     }).then(() => {
+      // To check if we are conected to database or not
       console.log('Connected to database')
     }).catch((err) => {
+     // logs error if there was any errror
       console.log(err);
     })
     ```
@@ -32,5 +35,6 @@ const db = new reconDB(client, {
     uri:
        mongoURL
 })
+// exporting DB 
 module.exports = db;
 ```
