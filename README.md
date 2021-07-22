@@ -9,10 +9,9 @@
 }
 ```
 # How to connect to mongoose 🔗 ( https://discord.js.org/ ) 
-
-> const mongoose = require('mongoose')
-
-    ```js
+```js 
+      const mongoose = require('mongoose')
+      
       mongoose.connect(mongoString, {
       useUnifiedTopology: true,
       useNewUrlParser: true,
@@ -24,7 +23,7 @@
      // logs error if there was any errror
       console.log(err);
     })
-    ```
+```
   
 # reconDB File ( npmjs.com/package/reconlx )
 ```js
