@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://idlediscord.herokuapp.com">
+  <a href="https://idlediscord.herokuapp.com" target="__blank">
     <img src="https://cdn.discordapp.com/attachments/800530695298351134/867619953879285770/Logo.png" alt="Discord"/>
   </a>
   <p> There are different branches for each folders </p>
